@@ -9,5 +9,5 @@ app.get("/", (req, res) => {
   res.send("<h1>Go to .../mywebapp</h1>");
 });
 
-const port = 5000;
+const port = 80;
 app.listen(port, () => console.log(`Listening on port ${port}`));
